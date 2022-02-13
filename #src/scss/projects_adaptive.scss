@@ -1,0 +1,16 @@
+@media(min-width: 1442px) and (orientation : landscape) {
+	.project__content {
+		top:auto;
+		bottom: 16%;
+	}
+
+	.project__title {
+	    font-size: 5em;
+	   
+	    padding-bottom: 32px;
+	}
+
+	.project__block {
+	    font-size: 120%;
+	}
+}

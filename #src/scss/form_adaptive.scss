@@ -1,0 +1,45 @@
+<textarea type="text" name="message" placeholder="Message"></textarea>
+
+.form__item .form__label textarea {
+    width: 100%;
+    padding-left: calc(250/1440*100vw);
+    left: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 72px;
+    /* padding-top: 70px;*/
+}
+
+
+.form__item .form__label textarea {
+    //left: auto;
+    line-height: 69%;
+    padding-top: .3em;
+    //padding-left: .3em;
+    //background-color: #fff879;
+}
+
+
+<input type="text" text="Name" placeholder="Name">
+
+.form__item .form__label input, .form__item textarea {
+    width: calc(867/1440*100vw);
+    height: 100%;
+    font-family: NeueMontreal-Regular;
+    font-weight: 400;
+    color: #000;
+    font-size: 72px;
+    position: absolute;
+    /* left: 0.2em; */
+    border: none;
+    /* padding-left: 32.2em; */
+    padding: 0;
+    margin-left: 0.2em; //!!!!!
+    outline: 0;
+    line-height: .85;
+} 
+
+.form__item .form__label input:hover .form__item .form__label::placeholder{
+	
+}
